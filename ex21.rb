@@ -25,10 +25,10 @@ puts "Let's do more math with just functions!"
   weight = multiply(90,2)
   iq = divide(100,2)
 
-  puts "Age: #{age}, hegith: #{height}, weight: #{weigt}, IQ: #{iq}"
+  puts "Age: #{age}, hegith: #{height}, weight: #{weight}, IQ: #{iq}"
 
   puts "Here is a puzzle"
 
-what = add(age, subtrackt(height,multiply(weight,divide(iq,2))))
+what = add(age, subtract(height,multiply(weight,divide(iq,2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
