@@ -14,3 +14,6 @@ print - prinst out a string on the same line
 \ - escape character ex. "I want \"this to print out within this string\" but also be in double quotes"
 "" - string literal
 '' - same as above
+ARGV - takes a command argument as input
+open - opens a file
+gets - takes an input
